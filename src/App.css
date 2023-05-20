@@ -1,0 +1,121 @@
+.goods-list {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  /* background-color: rgb(205, 255, 205); */
+}
+
+.goods-block {
+  background-color: rgb(255, 234, 208);
+  width: 200px;
+  margin: 15px;
+  padding: 10px;
+  border: 2px outset;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+}
+
+.add-to-cart {
+  height: 25px;
+  border-radius: 20px;
+  background-color: rgb(135, 241, 135);
+  border: 2px outset;
+  border-color: rgb(181, 181, 255) rgb(181, 181, 255) rgb(255, 160, 160) rgb(255, 160, 160);
+}
+
+.add-to-cart:active {
+  border: 2px inset;
+  background-color: rgba(105, 205, 105, 0.733);
+  border-color: rgb(255, 160, 160) rgb(255, 160, 160) rgb(135, 135, 255) rgb(135, 135, 255);
+}
+
+.goods-number {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.goods-num-btn {
+  width: 25px;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  width: 40px;
+}
+
+.cart-table td {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgb(255, 194, 194);
+}
+
+.cart-table {
+  width: 40%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid rgb(255, 194, 194);
+  border-radius: 10px;
+}
+
+.cart-row {
+  background-color: rgb(255, 234, 208);
+  height: 60px;
+}
+
+.cart-good-name div {
+  width: 150px;
+}
+
+.cart-good-name p {
+  text-align: center;
+}
+
+.cart-total {
+  display: inline-block;
+  margin-left: calc(50% + 10%);
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+.cart-goods-num-panel div {
+  width: 150px;
+}
+
+.cart-good-summ div {
+  width: 150px;
+}
+
+.cart-good-summ p {
+  text-align: center;
+}
+
+.cart-good-img {
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .cart-good-name div {
+    width: 100px;
+  }
+
+  .cart-goods-num-panel div {
+    width: 150px;
+  }
+
+  .cart-good-summ div {
+    width: 100px;
+  }
+
+
+}
